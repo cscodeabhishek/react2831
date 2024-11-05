@@ -16,6 +16,7 @@ react_Mastery
 (*)React Ecosystem: Diving into tools like React Router, Styled Components, Next.js, and more.
 
 🛠️ Technologies I Use:>>>>>>>>>
+
 (*)Frontend: React, Redux, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS
 
 (*)State Management: Redux, React Context API
