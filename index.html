@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first Program React</title>
+    <title>First Program React</title>
 </head>
 <body>
     <div id="root"></div>
-    <!-- Both React and ReactDOM are available over a CDN. -->
-   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- React and ReactDOM are available over a CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Inline JSX code, Babel will transpile it -->
+    <script type="text/babel">
+        const container = document.getElementById("root");
+        
+        function Helloworld() {
+            return <h1>Hello World</h1>;
+        }
+
+        ReactDOM.createRoot(container).render(<Helloworld />);
+    </script>
 </body>
 </html>
