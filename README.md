@@ -16,12 +16,12 @@ react_Mastery
 (*)React Ecosystem: Diving into tools like React Router, Styled Components, Next.js, and more.
 
 🛠️ Technologies I Use:>>>>>>>>>
->>Frontend: React, Redux, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS
->>State Management: Redux, React Context API
->>Routing: React Router, Next.js routing
->>Testing: Jest, React Testing Library
->>Build Tools: Webpack, Babel
+(*)Frontend: React, Redux, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS
+(*)State Management: Redux, React Context API
+(*)Routing: React Router, Next.js routing
+(*)Testing: Jest, React Testing Library
+(*)Build Tools: Webpack, Babel
 
->>>>>>>Feel free to check out my repositories for examples, projects, and notes on my React learning journey! Let’s connect and share knowledge. 🌟
+Feel free to check out my repositories for examples, projects, and notes on my React learning journey! Let’s connect and share knowledge. 🌟
 
 
