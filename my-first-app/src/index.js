@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client'; // client here is for 18 version
-import HelloWorld from './HelloWorld';
-const root =ReactDOM.createRoot(document.getElementById('root'));
+import App from './App';
+const root = ReactDOM.createRoot(document.getElementById('root'));
 // create a simple component here
 // function HelloWorld(){
 //   return <h1>Hello World</h1>; // allowed to return only single element here ((multiple element returning is not allowed here))
@@ -17,6 +17,6 @@ const root =ReactDOM.createRoot(document.getElementById('root'));
 // }
 root.render(
   <React.StrictMode>
-    <HelloWorld/>
+    <App/>
   </React.StrictMode>
 )
